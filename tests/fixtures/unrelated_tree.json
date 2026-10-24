@@ -1,0 +1,34 @@
+{
+ "sha": "124156a9658271114f58cca3503d7d9de96cc627",
+ "truncated": false,
+ "tree": [
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "d0941e68da8f38151ff86a61fc59f7c5cf9fcaa2",
+   "size": 500
+  },
+  {
+   "path": "main.go",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "1ec558a60b5dda24597816c924776716018caf8b",
+   "size": 3000
+  },
+  {
+   "path": ".keep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "size": 0
+  },
+  {
+   "path": "LICENSE",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3239768c9d0f530800ae6897add5b52f8eb45459",
+   "size": 1078
+  }
+ ]
+}

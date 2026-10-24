@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-10-24T13:27:06.420799+00:00",
+  "targets": [
+    "majiayu000"
+  ],
+  "sources": [
+    {
+      "source": {
+        "full_name": "majiayu000/claude-skill-registry",
+        "name": "claude-skill-registry",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/claude-skill-registry",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 691,
+        "created_at": "2025-12-24T08:59:57Z",
+        "pushed_at": "2026-10-24T06:47:37Z"
+      },
+      "source_incomplete": true,
+      "candidates": 81,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/spellbook",
+        "name": "spellbook",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/spellbook",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 288,
+        "created_at": "2025-12-09T08:17:18Z",
+        "pushed_at": "2026-10-23T13:49:13Z"
+      },
+      "source_incomplete": false,
+      "candidates": 98,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/litellm-rs",
+        "name": "litellm-rs",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/litellm-rs",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 121,
+        "created_at": "2025-07-15T06:04:01Z",
+        "pushed_at": "2026-10-15T10:17:49Z"
+      },
+      "source_incomplete": false,
+      "candidates": 3,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/harness",
+        "name": "harness",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/harness",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 85,
+        "created_at": "2026-03-02T10:34:21Z",
+        "pushed_at": "2026-10-21T16:36:12Z"
+      },
+      "source_incomplete": false,
+      "candidates": 98,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/awesome-grok-bot",
+        "name": "awesome-grok-bot",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/awesome-grok-bot",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 77,
+        "created_at": "2026-08-30T04:14:11Z",
+        "pushed_at": "2026-10-24T12:28:10Z"
+      },
+      "source_incomplete": false,
+      "candidates": 15,
+      "clones": 0,
+      "gone": 1,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/profile-control-plane",
+        "name": "profile-control-plane",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/profile-control-plane",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 65,
+        "created_at": "2026-07-14T03:58:04Z",
+        "pushed_at": "2026-10-01T06:15:18Z"
+      },
+      "source_incomplete": false,
+      "candidates": 0,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/quotabar",
+        "name": "quotabar",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/quotabar",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 54,
+        "created_at": "2026-02-14T17:54:21Z",
+        "pushed_at": "2026-10-21T05:10:29Z"
+      },
+      "source_incomplete": false,
+      "candidates": 93,
+      "clones": 0,
+      "gone": 2,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/awesome-goal-prompts",
+        "name": "awesome-goal-prompts",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/awesome-goal-prompts",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 51,
+        "created_at": "2026-05-13T10:24:13Z",
+        "pushed_at": "2026-10-02T09:49:55Z"
+      },
+      "source_incomplete": false,
+      "candidates": 0,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/vibeguard",
+        "name": "vibeguard",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/vibeguard",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 43,
+        "created_at": "2026-02-14T10:29:53Z",
+        "pushed_at": "2026-10-21T17:59:53Z"
+      },
+      "source_incomplete": false,
+      "candidates": 99,
+      "clones": 0,
+      "gone": 6,
+      "allowed": 0,
+      "findings": []
+    },
+    {
+      "source": {
+        "full_name": "majiayu000/remem",
+        "name": "remem",
+        "owner": {
+          "login": "majiayu000"
+        },
+        "html_url": "https://github.com/majiayu000/remem",
+        "fork": false,
+        "archived": false,
+        "stargazers_count": 34,
+        "created_at": "2026-02-20T17:35:19Z",
+        "pushed_at": "2026-10-21T16:31:54Z"
+      },
+      "source_incomplete": false,
+      "candidates": 99,
+      "clones": 0,
+      "gone": 0,
+      "allowed": 0,
+      "findings": []
+    }
+  ],
+  "api_requests": 622
+}

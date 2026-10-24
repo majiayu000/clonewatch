@@ -1,0 +1,12 @@
+clonewatch 2026-10-24  repos 10  candidates 586  clones 0  shown 0 (score >= 0)  api requests 622
+
+majiayu000/claude-skill-registry  ★691  candidates 81  clones 0  [source tree truncated]
+majiayu000/spellbook  ★288  candidates 98  clones 0
+majiayu000/litellm-rs  ★121  candidates 3  clones 0
+majiayu000/harness  ★85  candidates 98  clones 0
+majiayu000/awesome-grok-bot  ★77  candidates 15  clones 0  gone 1
+majiayu000/profile-control-plane  ★65  candidates 0  clones 0
+majiayu000/quotabar  ★54  candidates 93  clones 0  gone 2
+majiayu000/awesome-goal-prompts  ★51  candidates 0  clones 0
+majiayu000/vibeguard  ★43  candidates 99  clones 0  gone 6
+majiayu000/remem  ★34  candidates 99  clones 0

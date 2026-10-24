@@ -1,0 +1,39 @@
+clonewatch 2026-10-24  repos 3  candidates 113  clones 5  shown 5 (score >= 0)  api requests 153
+
+original-a/claudecode-rule2hook  ★403  candidates 1  clones 1
+  [HIGH 100] https://github.com/owner-a/claudecode-rule2hook-copy-1  ★19  created 2025-07-04  shared 14/18 files (88%)
+      + .claude/hook_rule_claudecode_3.4-alpha.4.zip (571 KB, archive)
+      +30  not a fork, yet shares 14 of 18 distinctive files with original-a/claudecode-rule2hook (88% overlap)
+      +35  adds archive/executable not in the original: .claude/hook_rule_claudecode_3.4-alpha.4.zip
+      +10  payload is buried in a subdirectory or carries a version-like name
+      +20  README links straight to the added payload
+      +10  3 of the last 5 commits only touch the README
+       +5  owner account is 1011 days old with 1 public repo(s)
+original-b/envcrypt  ★109  candidates 45  clones 1
+  [HIGH 100] https://github.com/owner-b/envcrypt-copy-1  ★1  created 2025-09-06  shared 13/24 files (54%)
+      + cli/Software-charette.zip (572 KB, archive)
+      + libs/rust/src/Software-v1.2.zip (519 KB, archive)
+      +30  not a fork, yet shares 13 of 24 distinctive files with original-b/envcrypt (54% overlap)
+      +35  adds archive/executable not in the original: cli/Software-charette.zip, libs/rust/src/Software-v1.2.zip
+      +10  payload is buried in a subdirectory or carries a version-like name
+      +20  README links straight to the added payload
+      +10  3 of the last 5 commits only touch the README
+original-c/beautiful-mermaid  ★11228  candidates 67  clones 3  gone 1
+  [HIGH 100] https://github.com/owner-c/beautiful-mermaid-copy-1  ★1  created 2026-02-10  shared 83/237 files (51%)
+      + src/__tests__/mermaid_beautiful_3.9-beta.5.zip (570 KB, archive)
+      + src/__tests__/testdata/mermaid-beautiful-1.3.zip (570 KB, archive)
+      + src/er/mermaid-beautiful-2.3.zip (498 KB, archive)
+      + src/mermaid_beautiful_v3.9-alpha.5.zip (570 KB, archive)
+      +30  not a fork, yet shares 83 of 237 distinctive files with original-c/beautiful-mermaid (51% overlap)
+      +35  adds archive/executable not in the original: src/__tests__/mermaid_beautiful_3.9-beta.5.zip, src/__tests__/testdata/mermaid-beautiful-1.3.zip, src/er/mermaid-beautiful-2.3.zip, src/mermaid_beautiful_v3.9-alpha.5.zip
+      +10  payload is buried in a subdirectory or carries a version-like name
+      +20  README links straight to the added payload
+      +10  5 of the last 5 commits only touch the README
+  [LOW  35] https://github.com/owner-e/beautiful-mermaid-copy-3  ★0  created 2026-05-13  shared 237/237 files (100%)
+      +30  not a fork, yet shares 237 of 237 distinctive files with original-c/beautiful-mermaid (100% overlap)
+       +5  owner account is 1019 days old with 1 public repo(s)
+  [LOW  30] https://github.com/owner-d/beautiful-mermaid-copy-2  ★7  created 2026-03-27  shared 179/237 files (76%)
+      +30  not a fork, yet shares 179 of 237 distinctive files with original-c/beautiful-mermaid (76% overlap)
+       +0  release assets the original never shipped (README does not link to releases): beautiful-mermaid-1.1.5.zip
+
+Do not download or open the payloads above. Report with --format md evidence at https://support.github.com/contact/report-abuse

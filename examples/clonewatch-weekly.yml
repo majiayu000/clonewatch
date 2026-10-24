@@ -1,0 +1,58 @@
+# Weekly clonewatch scan of the repository owner's public repos.
+# Copy to .github/workflows/clonewatch.yml, preferably in a PRIVATE repo:
+# the issue it opens names suspect repositories.
+#
+# The default GITHUB_TOKEN is limited to 1,000 API requests per hour. For
+# accounts with many repos, add a fine-grained PAT with public read-only
+# access as the CLONEWATCH_TOKEN secret (5,000 requests per hour).
+name: clonewatch
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Install clonewatch
+        run: cargo install --locked --git https://github.com/majiayu000/clonewatch
+
+      - name: Scan (read-only API calls)
+        env:
+          GITHUB_TOKEN: ${{ secrets.CLONEWATCH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: clonewatch scan "${{ github.repository_owner }}" --top 20 --format json -o report.json
+
+      - name: Job summary
+        run: clonewatch render report.json --format md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update an issue when something scores high
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          clonewatch render report.json --format md -o issue.md --fail-on 70
+          code=$?
+          set -e
+          if [ "$code" -eq 0 ]; then echo "no high findings"; exit 0; fi
+          if [ "$code" -ne 1 ]; then exit "$code"; fi
+          gh label create clonewatch --repo "$GITHUB_REPOSITORY" --color B60205 --force
+          num=$(gh issue list --repo "$GITHUB_REPOSITORY" --label clonewatch --state open \
+                  --json number --jq '.[0].number // empty')
+          if [ -n "$num" ]; then
+            gh issue edit "$num" --repo "$GITHUB_REPOSITORY" --body-file issue.md
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --label clonewatch \
+              --title "clonewatch: suspected malicious clones of my repos" --body-file issue.md
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clonewatch-report
+          path: report.json

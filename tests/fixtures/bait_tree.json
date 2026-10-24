@@ -1,0 +1,83 @@
+{
+ "sha": "5ecc2df7d6d7023045fdd77c2ed4a357c812c8d3",
+ "truncated": false,
+ "tree": [
+  {
+   "path": ".claude/commands/rule2hook.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "abac36149cf8b0e18d680ad240a392fc875517bc",
+   "size": 6380
+  },
+  {
+   "path": "validate-hooks.py",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "39f69c278f46165447f30d10acf54277aaa3d5fc",
+   "size": 4150
+  },
+  {
+   "path": "quick-test.sh",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b6f9e6ea09c1e3c5fda53a8a028bae68f6352289",
+   "size": 2340
+  },
+  {
+   "path": "LICENSE",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3c097698f5570348e267d7650f34d0247462ada0",
+   "size": 1078
+  },
+  {
+   "path": "CHANGELOG.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "7c87e09804e2550fa852966f15efe71563dcd34c",
+   "size": 1522
+  },
+  {
+   "path": "examples/sample_rules.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e066133fdba5e5077ee034d757dc6dfcebd12979",
+   "size": 1798
+  },
+  {
+   "path": "test-cases.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "d61e3363def3f4e448c68105abdea736e4532873",
+   "size": 3833
+  },
+  {
+   "path": "SECURITY.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "920a25ef686c4f7ca6ad23dd109d3ad653161832",
+   "size": 2193
+  },
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "fc7794c8c4e6955ebb1567b6f6bfaeb9fff850e9",
+   "size": 684
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c21756af532843fcaee2100b11ff84e184d12497",
+   "size": 8054
+  },
+  {
+   "path": ".claude/hook_rule_claudecode_3.4-alpha.4.zip",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f07e5a815613c5abeddc4b682247a4c42d8a95df",
+   "size": 584482
+  }
+ ]
+}
