@@ -9,7 +9,8 @@ The README is rewritten, but the code isn't. clonewatch compares git blob SHAs f
 ## Install
 
 ```bash
-cargo install --locked --git https://github.com/majiayu000/clonewatch
+brew install majiayu000/tap/clonewatch
+# or: cargo install --locked --git https://github.com/majiayu000/clonewatch
 ```
 
 It needs a GitHub token: `GITHUB_TOKEN` / `GH_TOKEN`, or whatever `gh auth token` prints. The token stays on your machine and is only sent to api.github.com.
